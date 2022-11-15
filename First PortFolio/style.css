@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2? family= Oswald & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@300 & display=swap');
+
+/* Tout le corps*/
+body{
+    background: linear-gradient(#3aa5a4,#7ae5e4);
+    background-repeat: no-repeat;  
+}
+/* bg: */
+.bg{
+    background-color: #3aa5a4;
+    background-image: url(./images/ay_fleur.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    z-index: -1 ;
+    opacity: 0.1;
+}
+/*Les titres*/
+h1,h2{
+    font-family: 'Oswald', sans-serif;
+}
+/*Pour les paragraphes*/
+p{
+    font-family: 'Lato', sans-serif;
+}
+/*header: */
+header{
+    text-align: center;
+    color: white;
+    font-family: 'Lato';
+}
+/*Pour les selections: */
+section{
+   background-color: white;
+   font-family: 'Oswald';
+   margin: 50px;
+   padding : 50px;
+   text-align: justify;
+   overflow: hidden;   /*tout ce qui trouve a l'exterieur de la selection va entrer*/
+}
+
+
+/*paragraphe de la section apropos de moi: */
+.about{
+    padding: 10px;
+    line-height: 1.5;
+    color: rgb(85, 84, 84);
+}
+/*Les classes de la section apropos de moi: */
+.img0{
+    float: left;
+   
+}
+/*Les classes de la section projet: */
+.box {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+.img{
+    
+    width: 25%;
+    height: 150px;
+    float: left;
+
+}
+.img img{
+    width: 100%;
+    height: 150px;
+}
+
+/*Les classes de la section education: */
+.education1{
+    float: left;
+}
+.education2{
+    float: left;
+    margin-left: 100PX;
+    margin-right: 100px;
+}
+.education3{
+    float: left;
+}
+/*Les classes de la section langues: */
+.Arabe{
+    float: left;
+}
+.francais{
+    float: left;
+    margin-left: 200PX;
+    margin-right: 200px;
+}
+.anglais{
+    float: left;
+}
+/*le paragraphe qui est dans la division francais et anglais et arabe*/
+.francais,.anglais,.Arabe p{
+    color: grey;
+}
+/*strong pour rendre le mot important*/
+strong{
+    color: black;
+}
+/*---------------------Pour les liens---------------------------*/
+a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+/*Les classes de la section reseau social: */
+/*l'image qui se trouve ds la section rsocial: */
+.rsocial img{
+    width: 30px;
+    float: left;
+}
+/*le lien qui se trouve ds la section rsocial:*/
+.rsocial a{
+    margin:0;
+    float: right;
+}
+/*devisions*/
+.linkeln{
+    float: left;
+}
+.rs2{
+    float: left;
+    margin-left: 200PX;
+    margin-right: 200px;
+}
+.rs3{
+    float: left;
+}
+/*------------------Formulaire: -----------------------------*/
+/*1--input et textarea */
+input,textarea{
+    background-color: rgb(238, 236, 236);
+    border: none;
+    margin: .4rem; /*l'espace entre les inputs et textarea*/
+    width: 100%; /*pour les adapter a la largeur de la section */
+    height: 40px;
+}
+textarea{
+    height: 200px;
+}
+/* 2--Button: */
+button{
+    border-radius: 20px / 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 10%;
+    height: 40px;
+    margin-left: 10px;
+}
+button:hover {
+background-color: #7ae5e4;
+border: none;
+}
+footer{
+    text-align: center;
+    color: white;
+}
